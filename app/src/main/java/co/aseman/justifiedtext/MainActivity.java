@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     JustifiedTextView text = findViewById(R.id.sampleText);
-    text.setTypeface(Typeface.createFromAsset(getBaseContext().getAssets() , "Shabnam.ttf"));
+    text.setTypeface(Typeface.createFromAsset(getBaseContext().getAssets() , "fonts/Shabnam.ttf"));
   }
 }
-
-
